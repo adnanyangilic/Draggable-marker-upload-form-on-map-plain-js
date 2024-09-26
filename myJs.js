@@ -8,7 +8,7 @@ file.onchange = function(e) {
     img.setAttribute("style", "max-width:100px;");
     img.setAttribute("class", "imgClass");
     document.querySelector('#panel').appendChild(img);
-    // you can even free these 10bits you occupy in memory if you don't need the url anymore
+    
     img.onload = function() {
       URL.revokeObjectURL(this.src);
     }
