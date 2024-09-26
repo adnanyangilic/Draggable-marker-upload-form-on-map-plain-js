@@ -17,12 +17,12 @@ file.onchange = function(e) {
 }
 
 
-document.querySelector('#buttiny').addEventListener('click', function() {
+document.querySelector('#button1').addEventListener('click', function() {
 
     document.querySelector("#val3").value=document.querySelector("#val1").value;
     document.querySelector("#val4").value=document.querySelector("#val2").value;
 
-    console.log("buttiny clicked");
+    console.log("button1 clicked");
 
 
   });
