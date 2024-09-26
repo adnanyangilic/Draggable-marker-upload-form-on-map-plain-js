@@ -1,9 +1,5 @@
 <!doctype html>
-<!--
- @license
- Copyright 2019 Google LLC. All Rights Reserved.
- SPDX-License-Identifier: Apache-2.0
--->
+
 <html>
   <head>
     <title>Draggable Advanced Marker</title>
@@ -13,7 +9,7 @@
   <body>
 
     <div id="panel" style="position:absolute; z-index:100; right:0px;top:5px; min-height:500px; max-width:300px; min-width:300px; color:white; background-color:blue; border-radius:4px;">
-      <button id="buttiny">değer yaz</button>
+      <button id="button1">değer yaz</button>
     
     
       <form style="margin:20px;">
@@ -30,22 +26,11 @@
       <input type="submit" id="val5" value="Yolla"/>
       
       <br/>
-      
-
-
     </form>
-
-    
-       
-
     </div>
     <div id="map">
-
-
-   
     </div>
 
-    <!-- prettier-ignore -->
     <script>(g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})
         ({key: "yourgooglemapskeyyourgooglemapskey", v: "weekly"});</script>
   
