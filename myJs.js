@@ -1,11 +1,5 @@
 
 
-
-
-
-
-
-
 file.onchange = function(e) {
   for (let i = 0; i < this.files.length; i++) {
     let url = URL.createObjectURL(this.files[i]);
@@ -21,18 +15,6 @@ file.onchange = function(e) {
     console.log(this.files[i].name);
   }
 }
-
-   
-
-
-
-
-
-
-
-
-
-
 
 
 document.querySelector('#buttiny').addEventListener('click', function() {
